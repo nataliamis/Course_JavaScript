@@ -1,0 +1,38 @@
+.gallery ul {
+    list-style: none;
+}
+
+.gallery li {
+    display: inline;
+    list-style: none;
+}
+
+.gallery li img {
+    width: 200px;
+    height: 200px;
+    border: 2px solid grey;
+}
+
+.fullScreen {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    background:rgba(255,255,255,0.7);
+}
+.fullScreen .close {
+    display: block;
+    margin: auto;
+    background-color: lightgrey;
+    color: black;
+}
+
+.fullScreen img {
+    display: block;
+    margin: 15px auto 5px;
+    width: auto;
+    height: calc(100% - 50px);
+    border: 2px solid grey;
+}
