@@ -1,19 +1,30 @@
-ul {
-    padding: 0;
-}
 
-.nav ul {
+.menu {
     list-style: none;
     width: 100%;
+    display: inline;
 }
 
-.nav>ul>li {
+.menu > #li1 {
+    display: block;
+    position: relative;
+}
+
+.menu > #li2 {
     display: inline-block;
     position: relative;
 }
 
-.nav>ul>li>ul {
+.submenu1 {
     display: none;
     position: absolute;
-    width: 300px;
+    width: 130px;
+    margin-left: 35px;
+}
+
+.submenu2 {
+    display: none;
+    position: absolute;
+    width: 130px;
+    margin-left: 35px;
 }
