@@ -10,7 +10,8 @@
     top: 100%;
     display: block;
     background-color: white;
-    color: black;
+    color: dodgerblue;
     border: solid black 1px;
     z-index: 1;
+    text-align: center;
 }
