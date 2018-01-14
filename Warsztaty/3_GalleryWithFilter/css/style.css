@@ -1,3 +1,28 @@
 .invisible {
     display: none;
 }
+
+#gallery img {
+    border: 2px solid grey;
+}
+
+#showButton {
+    background-color: lightgrey;
+    color: black;
+    width: 60px;
+    height: 30px;
+    margin-top: 10px;
+}
+
+#hideButton {
+    background-color: lightgrey;
+    color: black;
+    width: 60px;
+    height: 30px;
+    margin-top: 10px;
+}
+
+#tagInput {
+    width: 200px;
+    height: 30px;
+}
